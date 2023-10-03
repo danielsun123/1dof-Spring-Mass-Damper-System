@@ -1,4 +1,4 @@
-# 1dof-Spring-Mass-Damper-System
+# 1dof_Spring_Mass_Damper_System
 Download the latest Python interpreter for code to run. 
 
 Download C compiler (gcc) for code to run. Download mingw installer (latest version) through sourceforge.net and select packages required for compiling C. MinGW repository should be in C drive upon installation. 
