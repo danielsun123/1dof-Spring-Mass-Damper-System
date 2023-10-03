@@ -5,3 +5,5 @@ Download C compiler (gcc) for code to run. Download mingw installer (latest vers
 Set up a new variable under path in system variables with the bin directory (e.g. C:\MinGW\bin).
 
 Download latest version of gnuplot for C through sourceforge.net. 
+
+Program can be run through file "script.bat". The script runs both C and Python programs.
