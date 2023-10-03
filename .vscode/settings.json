@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "sdl.h": "c",
+        "math.h": "c",
+        "direct.h": "c",
+        "graphics.h": "c",
+        "stdio.h": "c",
+        "bitset": "c",
+        "set": "c",
+        "time.h": "c",
+        "stdbool.h": "c"
+    }
+}
