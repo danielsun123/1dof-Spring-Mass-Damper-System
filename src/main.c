@@ -250,8 +250,8 @@ void *plot_data(void *arg) {
         pthread_exit(NULL); ;
     }
 
-    fprintf(gnuplot_pipe, "set xlabel \"time (s)\"\n");
-    fprintf(gnuplot_pipe, "plot 'data.txt' u 1:2 w lines title 'position (m)', '' u 1:3 w lines title 'velocity (m/s)', '' u 1:4 w lines title 'acceleration (m/s^2)'\n");  
+    fprintf(gnuplot_pipe, "set xlabel \"Time (s)\"\n");
+    fprintf(gnuplot_pipe, "plot 'data.txt' u 1:2 w lines title 'Position (m)', '' u 1:3 w lines title 'Velocity (m/s)', '' u 1:4 w lines title 'Acceleration (m/s^2)'\n");  
 
     while (!exit_flag) {
         fprintf(gnuplot_pipe, "replot\n");
